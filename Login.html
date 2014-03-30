@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!--[if lt IE 9]>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+                    <script type="text/javascript" src="vendor/bower/html5shiv/dist/html5shiv.js"></script>
+            <![endif]-->
+
+  <link rel="stylesheet" href="css/baselogin.css">
+
+  <link rel="stylesheet" href="css/stylelogin.css">
+
+  <script type="text/javascript" src="vendor/bower/jquery/jquery.js"></script>
+  <script type="text/javascript" src="js/backend/jquery-extends/live-patch.js"></script>
+
+  <script type="text/javascript">
+    var fonts = {
+      "PT Sans": {
+        "source": "google",
+        "variants": [
+          "700",
+          "700italic",
+          "italic",
+          "regular"
+        ],
+        "subsets": [
+          "cyrillic",
+          "cyrillic-ext",
+          "latin",
+          "latin-ext"
+        ],
+        "family": "PT Sans"
+      },
+      "Paytone One": {
+        "source": "google",
+        "variants": [
+          "regular"
+        ],
+        "subsets": [
+          "latin"
+        ],
+        "family": "Paytone One"
+      },
+      "Paprika": {
+        "source": "google",
+        "variants": [
+          "regular"
+        ],
+        "subsets": [
+          "latin"
+        ],
+        "family": "Paprika"
+      }
+    };
+  </script>
+
+  <script type="text/javascript" src="vendor/js/webfont.js"></script>
+  <script type="text/javascript" src="js/fontloader.js"></script>
+
+
+
+  <meta http-equiv="content-language" content="en">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8">
+</head>
+
+<body>
+  <div class="b-content">
+    <div class="fr-widget fr-container fr_jakodu ">
+      <div class="fr-widget fr-text fr-wf fr_wadiku ">
+        <div class="fr-text">
+          <b>
+
+
+            Ayuto</b>
+        </div>
+      </div><!--
+   --><div class="fr-widget fr-text fr-wf fr_sudore ">
+        <div class="fr-text">Mobile Number
+        </div>
+      </div><!--
+   --><div class="fr-widget fr-text fr-wf fr_rogupe ">
+        <div class="fr-text">Password
+        </div>
+      </div><!--
+   --><div class="fr-widget fr-text fr-wf fr_topuri ">
+        <div class="fr-text">
+          <span style="font-weight: normal;">
+
+            <a href="Login.html" class="fr-text" target="_blank">
+         Sign In
+      </a></span>
+        </div>
+      </div>
+    </div>
+
+  </div>
+  <div class="fr-copyright-footer fixed">
+    <div class="fr-widget fr-container">
+      <div class="fr-widget fr-text fr-wf fr-made-with-froont">
+        <a href="//froont.com" class="fr-text" target="_blank">
+        MADE WITH <span class="heart">&hearts;</span> AND <b>FROONT</b>
+      </a>
+      </div>
+    </div>
+    <div class="fr-bottom-em-spacer"></div>
+    <script type="text/javascript">
+      $(function() {
+        $(window).resize(function() {
+          var $footer = $('.fr-copyright-footer');
+          var $ref = $(document.getElementsByClassName('b-content')[0] || document.body)
+          $footer.removeClass('fixed');
+          if ($ref.height() + $footer.height() < window.innerHeight) {
+            $footer.addClass('fixed')
+          };
+        }).trigger('resize');
+      })
+    </script>
+  </div>
+  <div id="footer-assets">
+    <!--[if lt IE 9]>
+                    <script type="text/javascript" src="vendor/bower/respond/respond.src.js"></script>
+                    <script type="text/javascript" src="vendor/bower/raphael/raphael.js"></script>
+                    <script type="text/javascript" src="vendor/bower/raphael-svg-import-classic/raphael-svg-import.js"></script>
+                    <script type="text/javascript" src="js/raphaelize.js"></script>
+            <![endif]-->
+  </div>
+</body>
+
+</html>
